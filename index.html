@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    
+    <h1 style="text-align: center"><b>TIMER</b></h1>
+    <div class="col-md-4 text-center">
+      <table id="table">
+        <tr>
+          <td><button id="button1" class="btn btn-primary" disabled onclick="start()">Start</button> </td>
+          <td><button id="button2" class="btn btn-primary" disabled onclick="stop()">Stop</button></td>
+          </tr>
+          <tr>
+            <td><label id="label1"></label></td>
+            <td><label id="label3"></label></td>
+            <td><label id="label2"></label></td>
+          </tr>
+    </table>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-database.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
